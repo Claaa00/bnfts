@@ -1,0 +1,35 @@
+.font-poppins {
+  font-family: "Poppins", sans-serif;
+}
+.bg-F5941D {
+  background-color: #f5941d;
+}
+.bg-34C935 {
+  background-color: #34c935;
+}
+.bg-416BE4 {
+  background-color: #416be4;
+}
+.top-76 {
+  top: 303px;
+}
+.top-90 {
+  top: 367px;
+}
+.bg-F0F7FF {
+  background-color: #f0f7ff;
+}
+.bg-234E8F {
+  background-color: #234e8f;
+}
+.text-234E8F {
+  color: #234e8f;
+}
+.bg-66ECBC {
+  background-color: #66ecbc;
+}
+@media (max-width: 1020px) {
+  .hide-on-small {
+    display: none;
+  }
+}
