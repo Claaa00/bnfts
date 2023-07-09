@@ -28,6 +28,9 @@
 .bg-66ECBC {
   background-color: #66ecbc;
 }
+.bg-668CF2 {
+  background-color: #668cf2;
+}
 @media (max-width: 1020px) {
   .hide-on-small {
     display: none;
