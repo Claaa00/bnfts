@@ -28,9 +28,34 @@
 .bg-66ECBC {
   background-color: #66ecbc;
 }
+.bg-51BC96 {
+  background-color: red;
+}
 .bg-668CF2 {
   background-color: #668cf2;
 }
+.border-DCDCDC {
+  border-color: #dcdcdc;
+}
+.scrolled-bg {
+  background-color: #234e8f;
+  transition: background-color 0.9s;
+}
+a:hover span,
+a:focus span {
+  width: 100%;
+  height: 2px;
+}
+/* .scrolled-bg::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: fit-content;
+  background-color: #234e8f;
+  z-index: -1;
+} */
 @media (max-width: 1020px) {
   .hide-on-small {
     display: none;
