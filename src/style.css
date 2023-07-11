@@ -46,16 +46,34 @@ a:focus span {
   width: 100%;
   height: 2px;
 }
-/* .scrolled-bg::after {
-  content: "";
+header a.active,
+header a:hover {
+  color: #66ecbc;
+}
+header .hamburger a.active button,
+header .original a.active button {
+  color: white;
+}
+form .border-red-500 {
+  outline-color: #ef4444;
+}
+.overlay {
   position: fixed;
   top: 0;
   left: 0;
-  right: 0;
-  height: fit-content;
-  background-color: #234e8f;
-  z-index: -1;
-} */
+  width: 100%;
+  height: 100%;
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin-top: 25px;
+  z-index: 100;
+}
+.close-button {
+  border: none;
+  cursor: pointer;
+}
 @media (max-width: 1020px) {
   .hide-on-small {
     display: none;
